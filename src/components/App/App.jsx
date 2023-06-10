@@ -19,6 +19,8 @@ export default function App() {
       case 'bad':
         setBad(prevState => prevState + 1);
         break;
+      default:
+        throw new Error('What a fuck?');
     }
   };
 
